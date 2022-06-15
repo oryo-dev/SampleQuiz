@@ -13,6 +13,9 @@
 		4BC29D66285A958F00797F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC29D64285A958F00797F17 /* Main.storyboard */; };
 		4BC29D68285A958F00797F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC29D67285A958F00797F17 /* Assets.xcassets */; };
 		4BC29D6B285A958F00797F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC29D69285A958F00797F17 /* LaunchScreen.storyboard */; };
+		4BC29D73285A971500797F17 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC29D72285A971500797F17 /* QuizViewController.swift */; };
+		4BC29D75285A979200797F17 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC29D74285A979200797F17 /* ScoreViewController.swift */; };
+		4BC29D77285A994B00797F17 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4BC29D76285A994B00797F17 /* quiz.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4BC29D67285A958F00797F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BC29D6A285A958F00797F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BC29D6C285A958F00797F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC29D72285A971500797F17 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		4BC29D74285A979200797F17 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		4BC29D76285A994B00797F17 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				4BC29D60285A958F00797F17 /* SceneDelegate.swift */,
 				4BC29D62285A958F00797F17 /* ViewController.swift */,
 				4BC29D64285A958F00797F17 /* Main.storyboard */,
+				4BC29D76285A994B00797F17 /* quiz.csv */,
+				4BC29D74285A979200797F17 /* ScoreViewController.swift */,
+				4BC29D72285A971500797F17 /* QuizViewController.swift */,
 				4BC29D67285A958F00797F17 /* Assets.xcassets */,
 				4BC29D69285A958F00797F17 /* LaunchScreen.storyboard */,
 				4BC29D6C285A958F00797F17 /* Info.plist */,
@@ -128,6 +137,7 @@
 				4BC29D6B285A958F00797F17 /* LaunchScreen.storyboard in Resources */,
 				4BC29D68285A958F00797F17 /* Assets.xcassets in Resources */,
 				4BC29D66285A958F00797F17 /* Main.storyboard in Resources */,
+				4BC29D77285A994B00797F17 /* quiz.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +150,9 @@
 			files = (
 				4BC29D63285A958F00797F17 /* ViewController.swift in Sources */,
 				4BC29D5F285A958F00797F17 /* AppDelegate.swift in Sources */,
+				4BC29D75285A979200797F17 /* ScoreViewController.swift in Sources */,
 				4BC29D61285A958F00797F17 /* SceneDelegate.swift in Sources */,
+				4BC29D73285A971500797F17 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
